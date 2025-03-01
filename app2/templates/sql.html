@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+<title>{% block title %}Sql{% endblock %}</title>
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/sql.css' %}">
+
+<h1>Welcome To Structured Query Language </h1>
+<img src="{% static 'images/sql.avif' %}" alt="">
+<p>SQL stands for Structured Query Language. It's a programming language used to manage and communicate with relational databases. SQL is the standard language for relational database management systems (RDBMS). 
+    What SQL is used for 
+    Storing, retrieving, modifying, and analyzing data
+    Maintaining and optimizing database performance
+    Managing permissions and ensuring data security
+    Where is SQL used 
+    finance, healthcare, data science, marketing, web development, and cybersecurity.
+    How does SQL work
+    SQL statements are used to store, update, remove, search, and retrieve information from the database 
+    SQL enables rapid query processing 
+    SQL provides security features such as authentication, access control, audit trails, and encryption 
+    How to learn SQL 
+    You can learn and use SQL for free through various online resources and platforms
+    Some free SQL software are MySQL, PostgreSQL, Microsoft SQL, and SQL Server
+    SQL security
+    SQL injection is a cyberattack that involves injecting malicious SQL queries into input fields to manipulate a database</p>
+
+{% endblock %}

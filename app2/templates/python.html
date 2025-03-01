@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block title %}Python Page{% endblock %}
+<!-- after extends only we can use load -->
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/python.css' %}">
+
+    <h1>This Python Full stack</h1>
+    <p>This is the first page of App2.</p>
+    <img src="{% static 'images/python.jpeg' %}" alt="">
+    <p class="mt-5">A Python Full Stack Developer is someone who can handle both the front-end and back-end development of web applications. They use Python for the server side and technologies like HTML, CSS, and JavaScript for the client side, making them versatile and in high demand.</p>
+    <p>A Python full stack developer creates web applications by working on both the front end and back end. They use Python, HTML, CSS, JavaScript, and other technologies to build functional websites. 
+        Responsibilities 
+        Building user interfaces
+        Handling server-side logic and data processing
+        Interacting with databases
+        Implementing APIs
+        Developing the product life cycle
+        Writing clean and maintainable Python code
+        Performing testing and debugging code
+        Skills Knowledge of Python programming language, Knowledge of front-end and back-end technologies, Knowledge of database systems, Understanding of version control, and Familiarity with cloud technologies. 
+        Tools and frameworks Python frameworks like Django or Flask, Front-end frameworks like React or Angular, and Integrated Development Environments (IDEs). 
+        Training Python full-stack developer courses, Online training courses, and Boot-camps. 
+        Other considerations 
+        Certification courses
+        Resume preparation
+        Networking with professionals
+        Understanding of web protocols, such as HTTP, REST, and SOAP
+        Knowledge of web application architecture</p>
+{% endblock %}

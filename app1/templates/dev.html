@@ -1,0 +1,25 @@
+{% extends 'devops.html' %}
+{% block title %}Devops Page 1{% endblock %}
+{% load static %}
+{% block content %}
+    <h1>Welcome to Devops</h1>
+    <p>This is the first session of u r Devops</p>
+    <p>DevOps is a software development practice that encourages collaboration between development and operations teams. It aims to improve software quality and delivery speed. </p>
+    <img src="{% static 'images/d1.png' %}" alt="">
+    <p>DevOps use cases: 
+        Continuous integration (CI)
+        Continuous deployment (CD)
+        Automation testing
+        Infrastructure as code (IaC)
+        Microservices deployment
+        Containerization with Docker
+        Monitoring and logging
+        DevOps benefits Faster software delivery, More reliable software delivery, Improved collaboration, and Improved automation. 
+        DevOps tools
+        Docker is a popular containerization platform that helps teams package and deploy their work. 
+        Atlassian's Open DevOps is an example of an open toolchain that integrates with other tools</p>
+    <img src="{% static 'images/dw.png' %}" alt="">
+    <img src="{% static 'images/d2.jpg' %}" alt="" width="900px">
+
+
+{% endblock %}
